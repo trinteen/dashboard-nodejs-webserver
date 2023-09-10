@@ -1,0 +1,228 @@
+{
+    "1" : {
+        "Q" : {
+            "name" : "zapalování",
+            "info" : "Vyp/Zap",
+            "font" : "#ffffff",
+            "bacg" : "#ff0000"
+        },
+        "W" : {
+            "name" : "Ruč. brzda",
+            "info" : "Vyp/Zap",
+            "font" : "#ff0000",
+            "bacg" : "#fff"
+        },
+        "E" : {
+            "name" : "Mot. brzda",
+            "info" : "Vyp/Zap",
+            "font" : "#ff0000",
+            "bacg" : "#fff"
+        },
+        "R" : {
+            "name" : "Tempo",
+            "info" : "Vyp/Zap",
+            "font" : "#ffffff",
+            "bacg" : "#666666"
+        },
+        "T" : {
+            "name" : "NAVIGACE",
+            "info" : "",
+            "font" : "#000",
+            "bacg" : "#00ff00"
+        },
+        "Z" : {
+            "name" : "NÁVĚS",
+            "info" : "Prip/Odpo",
+            "font" : "#ff0000",
+            "bacg" : "#fff"
+        },
+        "**" : {
+            "name" : ""
+        },
+        "ESC" : {
+            "name" : "MENU",
+            "info" : "Nabídka menu",
+            "font" : "#ffffff",
+            "bacg" : "#000000"
+        },
+        "***" : {
+            "name" : ""
+        },
+        "U" : {
+            "name" : "SERVIS",
+            "info" : "",
+            "font" : "#ffffff",
+            "bacg" : "#ff0000"
+        },
+        "****" : {
+            "name" : ""
+        },
+        "I" : {
+            "name" : "<==",
+            "info" : "Levá směr.",
+            "font" : "#000",
+            "bacg" : "#00ff00"
+        },
+        "Enter" : {
+            "name" : "OK",
+            "info" : "ENTER",
+            "font" : "#ffffff",
+            "bacg" : "#000000"
+        },
+        "O" : {
+            "name" : "==>",
+            "info" : "Pravá směr.",
+            "font" : "#000",
+            "bacg" : "#00ff00"
+        },
+        "P" : {
+            "name" : "MAPA",
+            "info" : "",
+            "font" : "#ff0000",
+            "bacg" : "#fff"
+        },
+        "A" : {
+            "name" : "Světla",
+            "info" : "Režimy",
+            "font" : "#000000",
+            "bacg" : "#b8c4fe"
+        },
+        "S" : {
+            "name" : "Výs.světla",
+            "info" : "Vyp/Zap",
+            "font" : "#ffffff",
+            "bacg" : "#ff6600"
+        },
+        "D" : {
+            "name" : "Dál.svět",
+            "info" : "Vyp/Zap",
+            "font" : "#ffffff",
+            "bacg" : "#133bfc"
+        },
+        "F" : {
+            "name" : "Maják",
+            "info" : "Vyp/Zap",
+            "font" : "#ffffff",
+            "bacg" : "#ff6600"
+        },
+        "G" : {
+            "name" : "Klakson",
+            "info" : "",
+            "loop" : "100",
+            "font" : "#ffffff",
+            "bacg" : "#ff0000"
+        }
+    },
+    "2" : {
+        "H" : {
+            "name" : "Foto",
+            "info" : "Snímek obrazovky",
+            "font" : "#ff0000",
+            "bacg" : "#fff"
+        },
+        "*" : {
+            "name" : ""
+        },
+        "**" : {
+            "name" : ""
+        },
+        "***" : {
+            "name" : ""
+        },
+        "J" : {
+            "name" : "Uložit",
+            "info" : "Rychlé uložení hry",
+            "font" : "#ffffff",
+            "bacg" : "#ff0000"
+        },
+        "K" : {
+            "name" : "Otevřít ok.",
+            "info" : "Levé",
+            "font" : "#ffffff",
+            "bacg" : "#666666"
+        },
+        "L" : {
+            "name" : "Zavřít ok.",
+            "info" : "Levé",
+            "font" : "#ffffff",
+            "bacg" : "#666666"
+        },
+        "****" : {
+            "name" : ""
+        },
+        "Y" : {
+            "name" : "Otevřít ok.",
+            "info" : "Pravé",
+            "font" : "#ffffff",
+            "bacg" : "#666666"
+        },
+        "X" : {
+            "name" : "Zavřít ok.",
+            "info" : "Pravé",
+            "font" : "#ffffff",
+            "bacg" : "#666666"
+        },
+        "*****" : {
+            "name" : ""
+        },
+        "******" : {
+            "name" : ""
+        },
+        "C" : {
+            "name" : "Otoč.pohled",
+            "info" : "Vyp/Zap",
+            "font" : "#ffffff",
+            "bacg" : "#666666"
+        }
+    },
+    "3" : {
+        "add" : {
+            "name" : "Ano",
+            "info" : "",
+            "font" : "#ffffff",
+            "bacg" : "#666666"
+        },
+        "ě" : {
+            "name" : "Ne",
+            "info" : "",
+            "font" : "#ffffff",
+            "bacg" : "#666666"
+        },
+        "š" : {
+            "name" : "Ok",
+            "info" : "",
+            "font" : "#ffffff",
+            "bacg" : "#666666"
+        },
+        "č" : {
+            "name" : "Žádný problém",
+            "info" : "",
+            "font" : "#ffffff",
+            "bacg" : "#666666"
+        },
+        "ř" : {
+            "name" : "Samožřejmě",
+            "info" : "",
+            "font" : "#ffffff",
+            "bacg" : "#666666"
+        },
+        "ž" : {
+            "name" : "Omlouvám se",
+            "info" : "",
+            "font" : "#ffffff",
+            "bacg" : "#666666"
+        },
+        "ý" : {
+            "name" : "Sakra",
+            "info" : "",
+            "font" : "#ffffff",
+            "bacg" : "#666666"
+        },
+        "ESCAPE" : {
+            "name" : "Zavřít",
+            "info" : "",
+            "font" : "#ffffff",
+            "bacg" : "#666666"
+        }
+    }
+}

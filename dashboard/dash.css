@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+body {
+    background: #000;
+    color: #fff;
+}
+
+a, a:hover, a:active {
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+table {
+    width: 100%;
+    height: 100%;
+    border-collapse: collapse;
+}
+
+table td.table_menu {
+    height: 40px;
+}
+
+ #button,
+ div[id^="menu"] {
+    width: calc(100% - 10px);
+    height: calc(100% - 10px);
+    margin: 5px;
+    border-radius: 15px;
+    display: flex;
+}
+
+div[id^="menu"].on {
+    background: #fff;
+    color: #000;
+}
+
+div[id^="menu"].on a {
+    color: #000;
+}
+
+div[id^="menu"].off {
+    background: #666;
+    color: #fff;
+}
+
+div[id^="menu"].off a {
+    color: #fff;
+}
+
+#button h2 {
+    font-size: 2vw;
+}
+
+button h4 {
+    font-size: 2vw;
+}

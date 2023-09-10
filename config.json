@@ -1,0 +1,9 @@
+{
+    "server" : {
+        "host" : "-ip-",
+        "port" : "8000"
+    },
+    "UI" : {
+        "table_col" : "5"
+    }
+}
