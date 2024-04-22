@@ -2,8 +2,12 @@ const http = require("http");
 const fs = require("fs");
 const path = require("path");
 const url = require("url");
-const ks = require("node-key-sender");
+const robot = require("kbm-robot");
 const config = require("./config.json");
+
+function delay(time) {
+    return new Promise(resolve => setTimeout(resolve, time));
+} 
 
 var dash_config = "";
 fs.readFile("./dashboard/dash.json", "utf-8", function (err, data) {
@@ -126,11 +130,46 @@ const server = http.createServer((req, res) => {
         if(p.length > 0 && key.length > 0){
             if(dash_config[p].hasOwnProperty(key)){
                 if(typeof loop === "undefined" || loop.length == 0 || loop == ""){
-                    ks.sendKey(key);
+                    robot.startJar();
+                    robot.press(key)
+                        .sleep(100)
+                        .release(key)
+                        .sleep(100)
+                        .go()
+                        .then(robot.stopJar);
                 } else {
-                    for (x=1; x <= loop; x++){
-                        ks.sendKey(key);
-                    }
+                    robot.startJar();
+                    robot.press(key)
+                        .sleep(loop)
+                        .release(key)
+                        .sleep(loop)
+                        .press(key)
+                        .sleep(loop)
+                        .release(key)
+                        .sleep(loop)
+                        .press(key)
+                        .sleep(loop)
+                        .release(key)
+                        .sleep(loop)
+                        .press(key)
+                        .sleep(loop)
+                        .release(key)
+                        .sleep(loop)
+                        .press(key)
+                        .sleep(loop)
+                        .release(key)
+                        .sleep(loop)
+                        .press(key)
+                        .sleep(loop)
+                        .release(key)
+                        .sleep(loop)
+                        .press(key)
+                        .sleep(loop)
+                        .release(key)
+                        .sleep(loop)
+                        .go()
+                        .then(robot.stopJar);
+                        delay(1000);
                 }
                 
                 console.log(
@@ -140,7 +179,8 @@ const server = http.createServer((req, res) => {
                     "INFO: " + dash_config[p][key]["info"] + ", " +
                     "LOOP: " + dash_config[p][key]["loop"] + ", " +
                     "PAGE: " + p
-                ); 
+                );
+
             } else {
                 console.log("Key: " + key + " not found!");
             }
