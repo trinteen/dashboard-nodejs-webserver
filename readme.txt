@@ -5,7 +5,6 @@ Autor: Trinteen, (c)2023
 Working with:
 --
 NodeJS
-Java (for kbm-robot module)
 
 
 Audio sound from: Pixabay.com
@@ -39,7 +38,7 @@ Files:
                 "info" : "info",    <<== Information text in dasboard page
                 "font" : "font",    <<== Hex code color for font
                 "bacg" : "bacg",    <<== Hex code color for backgroud
-                "loop" : "loop"     <<== Time MS waiting send key (section line 141 in index.js)
+                "loop" : "loop"     <<== Loop send key
             }
         }
     }

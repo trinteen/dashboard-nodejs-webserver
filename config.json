@@ -1,6 +1,6 @@
 {
     "server" : {
-        "host" : "-ip-",
+        "host" : "-IP-",
         "port" : "8000"
     },
     "UI" : {

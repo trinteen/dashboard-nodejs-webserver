@@ -108,7 +108,7 @@
         "G" : {
             "name" : "Klakson",
             "info" : "",
-            "loop" : "100",
+            "loop" : "10",
             "font" : "#ffffff",
             "bacg" : "#ff0000"
         }
